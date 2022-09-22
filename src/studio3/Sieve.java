@@ -21,7 +21,6 @@ public class Sieve {
 			
 			if(numbers[i] == false) {
 				for (int j = i*i; j<=n; j = j+i ) {
-					counter++;
 					
 					numbers[j] = true;
 					
